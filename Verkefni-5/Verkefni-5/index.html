@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="is">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>Verkefni 5</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header class="group">
+                <h1 class="col-1"><a href="index.html"><img src="images/csgo-logo.jpg" class="logo"></a> Counter Strike: Global Offensive</h1>
+            </header>
+                <nav class="col-1"> 
+                    <ul class="topmenu font">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="skins.html">Skins</a></li>
+                        <li><a href="venue.html">Venue</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <div class="topmenu_rb">
+                    <input type="checkbox" id="toggle">
+                    <label for="toggle">&#9776;</label>
+                    <nav class="">
+                      <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="skins.html">Skins</a></li>
+                        <li><a href="venue.html">Venue</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                      </ul>
+                    </nav>
+                </div>
+                
+            <section class="group item">
+                <article class="col-2-3"> 
+                    <h2>Best CS:GO teams</h2>
+                    <h4>Here are the top 4 best teams in the world </h4>
+                    <div class="box-set">
+                        <!-- Hér koma myndir -->
+                        <a href="http://wiki.teamliquid.net/counterstrike/SK_Gaming"><img src="images/SK-Logo.png" class="img-1"></a>
+                        <a href="http://wiki.teamliquid.net/counterstrike/Virtus.pro"><img src="images/VirtusPro-Logo.png" class="img-2"></a>
+                        <br>
+                        <a href="http://wiki.teamliquid.net/counterstrike/Team_Dignitas"><img src="images/Dignitas-Logo.png" class="img-3"></a>
+                        <a href="http://wiki.teamliquid.net/counterstrike/Natus_Vincere"><img src="images/NatusVincere-Logo.png" class="img-4"></a>
+                    </div>
+                    <h4>Verkefni 1.2 Efst til hægri á síðunni á að vera box með samfélagsmiðlatenglum sem er staðsett með "fixed" stillingu í stílsíðunni. Tenglarnir eiga að vera með mismunandi litum.</h4>
+                    <p>By nature web pages are often considered to be two dimensional, displaying elements upon a x and y axis. However when you begin to position elements they are occasionally placed on top of one another. To change the order of how these elements are stacked, also known as the z-axis, the z-index property is to be used.
+                    </p><p>
+                    Generally, elements are positioned upon the z-axis as they appear within the DOM. Elements coming at the top of the DOM are positioned behind elements coming after them. Changing this stacking using the z-index property is pretty straight forward. The element with the highest z-index value will appear on the top regardless of its placement in the DOM.
+                    </p><p>
+                    In order to apply the z-index property to an element, you must first apply a position value of relative, absolute, or fixed. Same as if you were to apply and box off set properties.
+                    </p>
+                    <section class="group">   <!-- Section Teasers start --> 
+                        <div class="col-1-2">
+                            <a href="skins.html">
+                            <h3>Skin of the week!</h3>
+                            </a>
+                            <a href="https://steamcommunity.com/market/listings/730/M4A4%20%7C%20Asiimov%20(Field-Tested)"><img src="images/M4A4-Asiimov.png"></a>
+                        </div>
+                        <div class="col-1-2">
+                            <a href="skins.html">
+                            <h3>Skin of the month!</h3>
+                            </a>
+                            <a href="https://steamcommunity.com/market/listings/730/AK-47%20%7C%20Vulcan%20(Factory%20New)"><img src="images/AK47-Vulcan.png"></a>
+                        </div>
+                    </section><!-- Section Teasers end -->
+                </article>
+                <aside class="col-1-3">
+                    <h2>Reusable Code</h2>
+                    <p>One of the largest performance drawbacks comes with bloated file sizes and unnecessary browser rendering. One quick way to help largely cut down on CSS file sizes is to reuse styles as much as possible. Any repeating styles or interface patterns should be combined, allowing code to be shared. If two modules share a background, rounded corners, and a box shadow there is no reason to explicitly state those same styles twice. Instead they can be combined, within a single class, allowing the styles to be written once and then shared.</p>
+                    <h2>Reduce HTTP Requests</h2>
+                    <p>Next to file size, the number of HTTP requests a website makes is one of the largest performance pitfalls. Each time a request is made to the server the page load time increases. Some request have to finish before others can start, and too many request can bloat the server.
+                    </p><p>
+                    Combine Like Files. One way, and perhaps the easiest way, to reduce the number of HTTP requests is to combine like files. Specifically, combine all of the CSS files into one and all of the JavaScript files into one. Combining these files then compressing them creates one, hopefully small, HTTP request.
+                    </p>
+                </aside>
+            </section>
+
+            <footer class="group font">
+                <div class="col-1-3"> 
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                </div>
+                <div class="col-1-3"> 
+                    <ul>
+                        <li><a href="skins.html">Skins</a></li>
+                        <li><a href="venue.html">Venue</a></li>
+                    </ul>
+                </div>
+                <div class="col-1-3"> 
+                    <ul>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        <!-- Social Media Buttons -->
+        <div class="logo-box">
+            <div class="instagram"><a class="instagram" href="http://www.instagram.com" title="Instagram" id="instagram"></a></div>
+            <div class="twitter"><a class="twitter" href="http://www.twitter.com" title="Twitter" id="twitter"></a></div>
+            <div class="facebook"><a class="facebook" href="http://www.facebook.com" title="Facebook" id="facebook"></a></div>
+            <div class="googleplus"><a class="googleplus" href="http://plus.google.com/" title="Google+" id="googleplus"></a></div>
+        </div>
+    </body>
+</html>

@@ -242,7 +242,8 @@ footer li, footer a{
   padding-bottom: 5px;
 }
 footer{
-  background-color: grey;
+  /*background-color: grey;*/
+  border-top: 1px black solid;
 }
 header nav {
   margin-top: 1.3em;
@@ -420,16 +421,6 @@ br{
   font-style: normal;
 }
 
-.font
-{
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-}
-
 .logo
 {
   border: 2px solid black;
@@ -439,4 +430,16 @@ br{
 .container
 {
   background: linear-gradient(#FFFFFF, #333333);
+  border-radius: 15px;
+  border: 1px black solid;
+}
+
+.group .col-1-2
+{
+  text-align: center;
+}
+.group .col-1-2 img
+{
+  border: 1px black solid;
+  border-radius: 15px;
 }

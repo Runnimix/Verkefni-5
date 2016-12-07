@@ -1,0 +1,120 @@
+===========================================================================================================
+					Efni fyrir lokaverkefni
+===========================================================================================================
+
+* Top 5 :X:
+	- 
+* Myndbönd
+	- 
+* Myndir :X:
+	- 
+* Hljóðskrá
+	- 
+* Letur :X:
+	- 
+* Litir :X:
+	- 
+* 
+	- 
+* 
+	- 
+* 
+	- 
+* 
+	- 
+* 
+	- 
+* 
+	- 
+
+===========================================================================================================
+						Þarf að gera
+===========================================================================================================
+
+* Klára HTML
+	- Tengja við CSS :X:
+	- Comment
+	- Hreiðruð tög inndreginn
+	- 
+* Klára CSS
+	- Tengja við HTML :X:
+	- Comment
+	- 
+* Myndbönd X:X
+* Letur
+	- Nota <strong></strong> fyrir áheirslutexta
+* Liti :X:
+	- #333333
+	- #000000
+	- #00708C
+	- #003340
+	- #323266
+	- #181831
+	- #00657F
+	- #00538C
+	- #003C65
+	- #E59F00
+	- #00274E
+	- #BF8500
+	- #438E1C
+	- #67DA2B
+	- #49708F
+	- #283E4F
+	- #AE3941
+	- #802A30
+* Hlóðskrá
+* Myndir
+	- Verða að vera í 100% stærð á síðu :X:
+* Innsláttarform og Töflur :X:
+	- Register.html
+	- Hafa í "Skrá sig í lið"
+	- Hafa Skráningarform til hægri
+		- Nafn (R)
+		- Netfang (R)
+			- Verður að hafa @ merki
+		- Sími(R)
+			- Verður að hafa númer
+		- Liðsfélagar
+			- Ef það eru liðsfélagar þá á að koma fleyri dálkar
+		- Gamemode (R)
+		- Liðsnafn (R)
+		- Logo fyrir lið
+		- Aðrar upplýsingar (Comment)
+	- Hafa kostnað til vinstri
+		- Nota töflur
+* Efnisyfirlit :X:
+	- HTML :X:
+	- CSS
+* Um okkur
+	- Seigja um vefinn og hverjir eiga ap nota hann
+* Hafa samband
+	- Hafa kort, ef við á
+	- Upplýsingar um hverjir standa að vefnum
+* Skjákynning
+	- Til að taka upp: http://www.screencast-o-matic.com/ 
+	- Til að yfirfæra myndskrár í mp4: http://www.any-video-converter.com/products/for_video_free/
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* Taka upp skjákynningu
+* Skila lokaverkefni
+
+===========================================================================================================
+						Heimildir
+===========================================================================================================
+
+https://color.adobe.com/create/color-wheel/
+https://www.google.com/fonts

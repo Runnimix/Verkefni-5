@@ -1,0 +1,264 @@
+/**********************************************************************************/
+/*TOP*/
+/**********************************************************************************/
+body
+{
+	width: 960px;
+	margin: auto;
+ 	background: linear-gradient(#333333, #000000);
+  	background-attachment: fixed;
+}
+
+header
+{
+	font-family: "Jura";
+	font-size: 20px;
+	padding: 5px;
+	color: white;
+}
+
+header img
+{
+	margin-right: 10px;
+	border-radius: 20px;
+}
+
+.nav-top ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: 1px black solid;
+	text-align: center;
+	background: linear-gradient(#808080, #000);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.nav-top li
+{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	display: inline-block;
+	margin-left: -5px
+}
+
+.nav-top a
+{
+	display: inline-block;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "Signika";
+}
+
+.nav-top a:hover
+{
+	color: white;
+	background: linear-gradient(to bottom, #a0a0a0, #404040);
+}
+
+.nav-top a:active
+{
+	color: grey;
+	background: linear-gradient(#fff, #000);
+}
+/**********************************************************************************/
+/*MIDDLE*/
+/**********************************************************************************/
+article
+{
+	padding: 10px;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	color: white;
+	font-family: "Signika";
+}
+
+aside
+{
+	border: 2px black solid;
+	padding: 10px;
+	border-radius: 15px;
+	background: linear-gradient(#00538C, #003C65);
+	color: white;
+	margin-top: 10px;
+	font-family: "Signika";
+}
+
+aside a
+{
+	color: white;
+}
+
+.col_2-3
+{
+	width: 66%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.col_1-3
+{
+	width: 33%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.white-text
+{
+	color: white;
+}
+
+.border-bottom
+{
+	border-bottom: 3px solid black;
+	padding: 5px;
+}
+/**********************************************************************************/
+/*BOTTOM*/
+/**********************************************************************************/
+footer
+{
+	clear: both;
+	overflow: auto;
+	padding: 10px 20px;
+	font-family: "Signika";
+}
+
+footer ul
+{
+	width: 33.33%;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 10px;
+	border-right: 1px solid black;
+	box-sizing: border-box;
+	background: linear-gradient(#00708C, #00274E);
+	border-radius: 12px;
+}
+
+footer a
+{
+	color: white;
+}
+
+.nav-bottom ul
+{
+	text-decoration: none;
+	list-style: none;
+}
+
+.nav-bottom a
+{
+	color: white;
+}
+
+.nav-bottom a:hover
+{
+	color: lightgrey;
+}
+
+.nav-bottom a:active
+{
+	color: grey;
+	font-size: 15px;
+}
+/**********************************************************************************/
+/*Container*/
+/**********************************************************************************/
+.container
+{
+	background: linear-gradient(#AE3941, #802A30);
+	background-attachment: fixed;
+	padding: 20px;
+	border: 1px black solid;
+	border-radius: 15px;
+}
+/*
+  ========================================
+  Social buttons
+  ========================================
+*/
+.logo-box
+{
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  display: fixed;
+}
+
+.instagram
+{
+  display: block;
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background: rgb(110, 50, 0) url('images/Logo.png') 0 0 no-repeat;
+}
+
+.twitter
+{
+  display: block;
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background: rgb(40, 182, 235) url('images/Logo.png') 0 -3em no-repeat;
+}
+
+.facebook
+{
+  display: block;
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background: rgb(36, 44, 203) url('images/Logo.png') 0 -6em no-repeat;
+}
+
+.googleplus
+{
+  display: block;
+  position: relative;
+  height: 3em;
+  width: 3em;
+  background: rgb(253, 40, 0) url('images/Logo.png') 0 -9em no-repeat;
+}
+
+.instagram:hover
+{
+  position: relative;
+  height: 3em;
+  width: 4em;
+  background: rgb(170, 70, 0) url('images/Logo.png') 0.5em 0 no-repeat;
+  transition: width .5s, background .8s;
+}
+
+.twitter:hover
+{
+  position: relative;
+  height: 3em;
+  width: 4em;
+  background: rgb(35, 160, 210) url('images/Logo.png') 0.5em -3em no-repeat;
+  transition: width .5s, background .8s;
+}
+
+.facebook:hover
+{
+  position: relative;
+  height: 3em;
+  width: 4em;
+  background: rgb(36, 60, 270) url('images/Logo.png') 0.5em -6em no-repeat;
+  transition: width .5s, background .8s;
+}
+
+.googleplus:hover
+{
+  position: relative;
+  height: 3em;
+  width: 4em;
+  background: rgb(255, 69, 0) url('images/Logo.png') 0.5em -9em no-repeat;
+  transition: width .5s, background .8s;
+}
